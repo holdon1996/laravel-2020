@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Laravel CRUD Tutorial With Example - Tutsmake.com</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
 
 </head>
 
@@ -16,6 +17,7 @@
         <br><br><br>
         @yield('content')
     </div>
+    @yield('script')
 </body>
 
 </html>

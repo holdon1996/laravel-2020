@@ -51,3 +51,11 @@
 </table>
 {!! $products->links() !!}
 @endsection
+
+@section('script')
+<script>
+    $(() => {
+        alert("true");
+    })
+</script>
+@endsection
