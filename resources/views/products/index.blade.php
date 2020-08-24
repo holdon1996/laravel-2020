@@ -55,7 +55,6 @@
 @section('script')
 <script>
     $(() => {
-        alert("true");
     })
 </script>
 @endsection
